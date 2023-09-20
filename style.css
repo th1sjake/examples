@@ -1,0 +1,11 @@
+img {
+    height: 20%;
+    width: 20%;
+    padding: 10px
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}

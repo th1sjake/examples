@@ -1,0 +1,250 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px; 
+    background: #FDFCEF;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+h1, h2, h3, h4, h5, h6 {
+margin: 0;
+font-weight: 700;
+line-height: 1.4em;
+}
+p {
+    line-height: 1.37em;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+    line-height: 1.4em
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+section {
+    padding-top: 120px;
+}
+.btn{
+    border-radius: 100px;
+    background: #FF6861;
+    color: #FFFFFF;
+    padding: 22px 70px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    width: 227px;
+    transition: all 0.5s ease;
+}
+.btn:hover {
+    background: #bb4d47; 
+}
+header {
+    padding-top: 60px;
+}
+.introtext {
+    font-size: 18px;  
+    margin: 30px 0px;
+    width: 423px;
+    line-height: 1.4em
+}
+.offer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 82px;
+}
+.offer {
+    width: 465px;
+}
+.digit-item {
+    display: flex;
+}
+.digit{
+    width: 73px;
+    height: 73px; 
+    margin-right: 34px;
+}
+.digit-title {
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+.digits {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 70px auto 0 auto;
+}
+.ladybag-wrap {
+    border-radius: 60px;
+    background: linear-gradient(148deg, #FFF6DF 0%, #FFDFDE 100%);
+    display: flex;
+    align-items: center;
+    padding: 76px 125px 75px 122px;
+}
+.ladybag-block {
+    width: 475px;
+}
+.ladybag-title {
+    text-align: left;
+}
+.ladybag-text {
+    margin: 24px 0;
+    width: 371px;
+}
+.ladybag {
+    margin-left: 101px;
+    width: 287px;
+    height: 287px;
+}
+.footer {
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 990px) {
+    .logo {
+        justify-content: center;
+    }
+
+    .offer-wrapper {
+        flex-direction: column-reverse;
+    }
+    .offer {
+        margin-top: 51px;
+        width: 320px;
+        justify-content: center;
+        text-align: center;
+    }
+    .introtext {
+        justify-content: center;
+        text-align: center;
+        width: 320px;
+    }
+    .btn {
+        margin: 0 auto;
+    }
+    .ladybag-wrap {
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 720px;
+    }
+
+    .ladybag-text {
+        text-align: center;
+        width: 432px;
+    }
+    .ladybag-title{
+        text-align: center;
+        margin-right: 0px;
+    }
+    .ladybag-wrap {
+        width: 720px;
+        padding: 101px, 37px, 101px, 37px;
+        margin: 0 auto;
+    }
+    .ladybag {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    body { 
+        display: flex;
+        padding: 60px 135px 90px 135px;
+        flex-direction: column;
+        align-items: center;
+        gap: 90px;
+    }
+    .offer-wrapper img {
+        width: 320px;
+        height: 320px;
+    }
+    .ladybag-wrap img {
+        width: 201px;
+        height: 201px;
+    }
+    .logo {
+        justify-content: center;
+    }
+
+    .offer-wrapper {
+        flex-direction: column-reverse;
+    }
+    .offer {
+        margin-top: 51px;
+        width: 320px;
+        justify-content: center;
+        text-align: center;
+    }
+    .introtext {
+        justify-content: center;
+        text-align: center;
+        width: 320px;
+    }
+    .btn {
+        margin: 0 auto;
+    }
+    .ladybag-wrap {
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 320px;
+        padding: 70px 37px;
+        margin: 0 auto;
+    }
+
+    .ladybag-text {
+        text-align: center;
+        width: 280px;
+        margin: 0 auto;
+        padding-bottom: 24px;
+    }
+    .ladybag-title{
+        text-align: center;
+        margin-right: 0px;
+    }
+    .ladybag {
+        margin-left: 0px;
+    }
+    .ladybag-block {
+        width: 320px;
+    }
+    .features {
+        width: 320px;
+    }
+    .digits {
+        width: 320px;
+    }
+    .digit-item {
+        flex-direction: column;
+        align-items: center;
+    }
+    .digit-title {
+        text-align: center;
+    }
+    .digit-text {
+        text-align: center;
+    }
+    .footer {
+        width: 320px;
+    }
+}
