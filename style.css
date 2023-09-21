@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
-@font-face {
-    font-family: Major Mono Display;
-    src:local("MajorMonoDisplay-Regular.ttf");
-}
 
 body {
     font-family: 'Major Mono Display', monospace;
@@ -26,4 +22,15 @@ img {
 
 li{
     padding: 10px 50px;
+}
+
+footer {
+    display: flex;
+    justify-content: right;
+    color: gray;
+    font-size:  10px;
+}
+
+.footer-text {
+    padding: 10px 20px;
 }
