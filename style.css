@@ -1,11 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+body {
+    font-family: 'Major Mono Display', monospace;
+}
 img {
     height: 20%;
     width: 20%;
-    padding: 10px
+    margin: 10px;
+    border: 1px solid black;
 }
 
 .img-container {
     display: flex;
     flex-direction: row;
     padding: 5px;
+}
+
+.text-container {
+    padding: 10px;
+}
+
+li{
+    padding: 10px 50px;
 }
